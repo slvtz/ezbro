@@ -1,0 +1,1669 @@
+--[[VARIABLE DEFINITION ANOMALY DETECTED, DECOMPILATION OUTPUT POTENTIALLY INCORRECT]]--
+--[[VARIABLE DEFINITION ANOMALY DETECTED, DECOMPILATION OUTPUT POTENTIALLY INCORRECT]]--
+-- Decompiled with the Synapse X Luau decompiler.
+
+return (function(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23, p24, p25, p26, p27, p28, p29, p30, p31, p32, p33, p34, p35, p36, p37, p38, p39, p40, p41, p42, p43, p44, p45, p46, p47, p48, p49, p50, p51, p52, p53, p54, p55, p56, p57, p58, p59, p60, ...)
+	local v1 = p49[p47];
+	local v2 = p49[p46];
+	local v3 = p49[p48];
+	local v4 = p22;
+	local v5 = p49[p43];
+	for v6 = 0, 2 do
+		if v6 <= 0 then
+			v4 = p35();
+		elseif v6 ~= 1 then
+			local v7 = {};
+		end;
+	end;
+	local v8 = 0;
+	local v9 = p22;
+	local v10 = p22;
+	local v11 = p22;
+	local v12 = p22;
+	local v13 = p22;
+	local v14 = p22;
+	while true do
+		if not (v8 <= 3) then
+			if not (v8 <= 5) then
+				if not (v8 <= 6) then
+					if v8 ~= 7 then
+						v13 = 4294967296;
+						v8 = 2;
+					else
+						local u1 = p22;
+						v10 = v3(v5(v10, 5), p42, function(p61)
+							local v15 = nil;
+							if v1(p61, 2) == 72 then
+								u1 = p20(v5(p61, 1, 1));
+								return p31;
+							end;
+							v15 = v2(p20(p61, 16));
+							if not u1 then
+								return v15;
+							end;
+							u1 = p22;
+							return p45(v15, u1);
+						end);
+						v8 = 3;
+					end;
+				else
+					local u2 = 1;
+					v12 = function()
+						local v16 = p22;
+						local v17 = p22;
+						for v18 = 0, 2 do
+							if not (v18 <= 0) then
+								if v18 ~= 1 then
+									return v16;
+								end;
+								u2 = v17;
+							else
+								local v19, v20 = p52(p33, v10, u2);
+								v16 = v19;
+								v17 = v20;
+							end;
+						end;
+					end;
+					v8 = 5;
+				end;
+			elseif v8 ~= 4 then
+				v8 = 8;
+			else
+				v8 = 7;
+			end;
+		elseif not (v8 <= 1) then
+			if v8 ~= 2 then
+				local u3 = 1;
+				v11 = function()
+					local v21 = v1(v10, u3, u3);
+					u3 = u3 + 1;
+					return v21;
+				end;
+				v8 = 6;
+			else
+				v8 = 9;
+			end;
+		elseif v8 ~= 0 then
+			v10 = p1;
+			v8 = 4;
+		else
+			v8 = 1;
+		end;
+		if v8 >= 9 then
+			break;
+		end;	
+	end;
+	local v22 = 1;
+	local v23 = p22;
+	local v24 = p22;
+	while v22 <= 2 do
+		if not (v22 <= 0) then
+			if v22 ~= 1 then
+				local v25 = 0;
+				local v26 = p22;
+				while p6 do
+					if v25 ~= 0 then
+						for v27 = 1, 31 do
+							local v28 = 1;
+							while true do
+								if v28 ~= 0 then
+									v23[v27] = v26;
+									v28 = 0;
+								else
+									v26 = v26 * 2;
+									v28 = 2;
+								end;
+								if v28 == 2 then
+									break;
+								end;							
+							end;
+						end;
+						break;
+					end;
+					v26 = 2;
+					v25 = 1;				
+				end;
+				v22 = 0;
+			else
+				v23 = {
+					[0] = 1
+				};
+				v22 = 2;
+			end;
+		else
+			v24 = function(p62, p63, p64)
+				local v29 = 1;
+				local v30 = p22;
+				while p6 do
+					if v29 == 0 then
+						return v30 - v30 % 1;
+					end;
+					v30 = p63 / v23[p64] % v23[p62];
+					v29 = 0;				
+				end;
+				return v30;
+			end;
+			v22 = 3;
+		end;	
+	end;
+	local v31 = 2;
+	local v32 = p22;
+	local v33 = p22;
+	local v34 = p22;
+	while true do
+		if not (v31 <= 0) then
+			if v31 == 1 then
+				v34 = p23;
+				break;
+			end;
+			local u4 = 1;
+			v32 = function()
+				local v35 = 0;
+				local v36 = p22;
+				local v37 = p22;
+				while p6 do
+					if v35 <= 0 then
+						local v38, v39 = p52(p25, v10, u4);
+						v36 = v38;
+						v37 = v39;
+						v35 = 1;
+					else
+						if v35 ~= 1 then
+							return v36;
+						end;
+						u4 = v37;
+						v35 = 2;
+					end;				
+				end;
+			end;
+			v31 = 0;
+		else
+			local u5 = 1;
+			v33 = function()
+				local v40, v41 = p52(p37, v10, u5);
+				u5 = v41;
+				return v40;
+			end;
+			v31 = 1;
+		end;
+		if p9 then
+			break;
+		end;	
+	end;
+	local v42 = p34[p12];
+	local v43 = 2;
+	local v44 = p22;
+	local v45 = p22;
+	local v46 = p22;
+	while v43 ~= 5 do
+		if v43 <= 1 then
+			if v43 ~= 0 then
+				v46 = {};
+				v43 = 5;
+			else
+				local u6 = v14;
+				v45 = function(p65)
+					local v47 = p22;
+					local v48 = p22;
+					local v49 = 4;
+					while true do
+						if not (v49 <= 1) then
+							if not (v49 <= 2) then
+								if v49 ~= 3 then
+									v47 = v12();
+									v49 = 2;
+								else
+									u5 = u5 + v47;
+									v49 = 1;
+								end;
+							else
+								v48 = p31;
+								v49 = 0;
+							end;
+						else
+							if v49 ~= 0 then
+								return v48;
+							end;
+							for v50 = 1, v47, 7997 do
+								local v51 = 2;
+								local v52 = p22;
+								local v53 = p22;
+								while p6 do
+									if v51 <= 1 then
+										if v51 ~= 0 then
+											v48 = v48 .. v2(p4(v53));
+											break;
+										end;
+										if v47 < v52 then
+											v52 = v47;
+										end;
+										v51 = 4;
+									elseif not (v51 <= 2) then
+										if v51 ~= 3 then
+											v53 = { v1(v10, u5 + v50 - 1, u5 + v52 - 1) };
+											v51 = 3;
+										else
+											for v54 = 1, #v53 do
+												for v55 = 0, 1 do
+													if v55 ~= 0 then
+														u6 = (p65 * u6 + 83) % p8;
+													else
+														v53[v54] = v34(v53[v54], u6);
+													end;
+												end;
+											end;
+											v51 = 1;
+										end;
+									else
+										v52 = v50 + 7997 - 1;
+										v51 = 0;
+									end;								
+								end;
+							end;
+							v49 = 3;
+						end;
+						if p9 then
+							break;
+						end;					
+					end;
+				end;
+				v43 = 4;
+			end;
+		elseif not (v43 <= 2) then
+			if v43 ~= 3 then
+				v14 = v11();
+				v43 = 3;
+			else
+				v9 = v11();
+				v43 = 1;
+			end;
+		else
+			local u7 = v9;
+			v44 = function(p66)
+				local v56 = p22;
+				local v57 = p22;
+				local v58 = p22;
+				local v59 = p22;
+				local v60 = 0;
+				while v60 < 4 do
+					if not (v60 <= 1) then
+						if v60 ~= 2 then
+							v57 = v34(v56[1], u7);
+							v60 = 1;
+						else
+							v59 = v34(v56[3], u7);
+							v60 = 4;
+						end;
+					elseif v60 ~= 0 then
+						v58 = v34(v56[2], u7);
+						v60 = 2;
+					else
+						v56 = { v1(v10, u5, u5 + 3) };
+						v60 = 3;
+					end;				
+				end;
+				local v61 = v34(v56[4], u7);
+				for v62 = 0, 2 do
+					if not (v62 <= 0) then
+						if v62 ~= 1 then
+							return v61 * 16777216 + v59 * 65536 + v58 * 256 + v57;
+						end;
+						u5 = u5 + 4;
+					else
+						u7 = (221 * u7 + p66) % 256;
+					end;
+				end;
+			end;
+			v43 = 0;
+		end;	
+	end;
+	for v63 = 1, v11() do
+		local v64 = 0;
+		local v65 = p22;
+		while v64 <= 2 do
+			if not (v64 <= 0) then
+				if v64 ~= 1 then
+					v46[v63 - 1] = v65;
+					v64 = 1;
+				else
+					for v66 = 1, v11() do
+						local v67 = 1;
+						local v68 = p22;
+						local v69 = p22;
+						while true do
+							if not (v67 <= 1) then
+								if v67 ~= 2 then
+									v69 = (v66 - 1) * 2;
+									v67 = 0;
+								else
+									v65[v69 + 1] = v24(4, v68, 4);
+									v67 = 4;
+								end;
+							elseif v67 == 0 then
+								v65[v69] = v24(4, v68, 0);
+								v67 = 2;
+							else
+								v68 = v11();
+								v67 = 3;
+							end;
+							if v67 > 3 then
+								break;
+							end;						
+						end;
+					end;
+					v64 = 3;
+				end;
+			else
+				v65 = {};
+				v64 = 2;
+			end;		
+		end;
+	end;
+	local function v70(...)
+		return p32(p36, ...), { ... };
+	end;
+	local v71 = p22;
+	local v72 = p22;
+	for v73 = 0, 1 do
+		if v73 ~= 0 then
+			v72 = 1;
+		else
+			v71 = {};
+		end;
+	end;
+	local v74 = 4;
+	local v75 = p22;
+	local v76 = p22;
+	while v74 < 5 do
+		if not (v74 <= 1) then
+			if not (v74 <= 2) then
+				if v74 == 3 then
+					v74 = 2;
+				else
+					v75 = {};
+					v74 = 3;
+				end;
+			else
+				local function u8(p67, p68, p69)
+					local v77 = p68[3];
+					local v78 = p68[1];
+					local u9 = p68[8];
+					local u10 = p68[2];
+					local u11 = p68[6];
+					local u12 = p68[5];
+					local u13 = p51({}, {
+						[p56] = p54
+					});
+					local u14 = p68[4];
+					local u15 = p68[7];
+					local function u16(...)
+						local v79 = {};
+						local v80 = p35();
+						local v81 = v80 == v4 and p67 or v80;
+						local v82, v83 = v70(...);
+						local v84 = v82 - 1;
+						local v85 = 0 - 1;
+						while v85 < u9 do
+							v79[v85] = v83[v85 + 1];
+							if 0 <= 1 then
+								if not (v85 < v84) then
+									break;
+								end;
+							elseif not (v84 < v85) then
+								break;
+							end;
+							v85 = v85 + 1;						
+						end;
+						v75[3] = p68;
+						v75[4] = v79;
+						if not u10 then
+							v83 = p22;
+						elseif u11 then
+							v79[u9] = {
+								[p7] = u9 <= v84 and v84 - u9 + 1 or 0,
+								p4(v83, u9 + 1, v84 + 1)
+							};
+						end;
+						if v81 ~= v80 then
+							p21(u16, v81);
+						end;
+						local u17 = 1;
+						local u18 = 0;
+						local v86, v87, v88, v89 = p55(function()
+							local v90 = nil;
+							while true do
+								v90 = u12[u17];
+								local v91 = v90[3];
+								u17 = u17 + 1;
+								if v91 >= 62 then
+									if not (v91 >= 93) then
+										if not (v91 >= 77) then
+											if not (v91 >= 69) then
+												if not (v91 >= 65) then
+													if not (v91 >= 63) then
+														v79[v90[10]] = v90[9] - v79[v90[4]];
+													else
+														if v91 ~= 64 then
+															while true do
+																if #u13 > 0 then
+																	local v92 = {};
+																	for v93, v94 in p38, u13 do
+																		for v95, v96 in p38, v94 do
+																			if v96[1] == v79 and v96[2] >= 0 then
+																				local v97 = v96[2];
+																				if not v92[v97] then
+																					v92[v97] = { v79[v97] };
+																				end;
+																				v96[1] = v92[v97];
+																				v96[2] = 1;
+																			end;
+																		end;
+																	end;
+																end;
+																if p6 then
+																	break;
+																end;															
+															end;
+															return p6, v90[10], 0;
+														end;
+														u18 = v90[10];
+														v79[u18] = v79[u18]();
+													end;
+												elseif not (v91 < 67) then
+													if v91 ~= 68 then
+														local v98 = v79[v90[5]] / v90[8];
+														v79[v90[10]] = v98 - v98 % 1;
+													else
+														local v99 = v90[10];
+														v79[v99](v79[v99 + 1]);
+														u18 = v99 - 1;
+													end;
+												elseif v91 == 66 then
+													local v100 = v90[9] / v90[8];
+													v79[v90[10]] = v100 - v100 % 1;
+												else
+													v79[v90[10]] = p9;
+												end;
+											elseif not (v91 >= 73) then
+												if not (v91 >= 71) then
+													if v91 ~= 70 then
+														while true do
+															if #u13 > 0 then
+																local v101 = {};
+																for v102, v103 in p38, u13 do
+																	for v104, v105 in p38, v103 do
+																		if v105[1] == v79 and v105[2] >= 0 then
+																			local v106 = v105[2];
+																			if not v101[v106] then
+																				v101[v106] = { v79[v106] };
+																			end;
+																			v105[1] = v101[v106];
+																			v105[2] = 1;
+																		end;
+																	end;
+																end;
+															end;
+															if p6 then
+																break;
+															end;														
+														end;
+														return p9, v90[10], u18;
+													end;
+													if not (v79[v90[5]] < v90[8]) then
+														u17 = u17 + 1;
+													end;
+												elseif v91 == 72 then
+													v79[v90[10]][v79[v90[5]]] = v79[v90[4]];
+												else
+													v79[v90[10]] = v90[8] <= v90[9];
+												end;
+											elseif not (v91 < 75) then
+												if v91 == 76 then
+													v79[v90[10]] = v90[9] <= v90[8];
+												else
+													v79[v90[10]] = v79[v90[4]] < v90[9];
+												end;
+											elseif v91 == 74 then
+												if v90[4] ~= 68 then
+													while true do
+														if #u13 > 0 then
+															local v107 = {};
+															for v108, v109 in p38, u13 do
+																for v110, v111 in p38, v109 do
+																	if v111[1] == v79 and v111[2] >= 0 then
+																		local v112 = v111[2];
+																		if not v107[v112] then
+																			v107[v112] = { v79[v112] };
+																		end;
+																		v111[1] = v107[v112];
+																		v111[2] = 1;
+																	end;
+																end;
+															end;
+														end;
+														if p6 then
+															break;
+														end;													
+													end;
+													return;
+												end;
+												u17 = u17 - 1;
+												u12[u17] = {
+													[3] = 14, 
+													[5] = (v90[5] - 70) % p8, 
+													[10] = (v90[10] - 70) % 256
+												};
+											else
+												v79[v90[10]] = p60(v79[v90[5]], v90[8]);
+											end;
+										elseif not (v91 >= 85) then
+											if not (v91 < 81) then
+												if not (v91 < 83) then
+													if v91 ~= 84 then
+														if v90[9] ~= v79[v90[4]] then
+															u17 = u17 + 1;
+														end;
+													elseif v79[v90[5]] ~= v90[8] then
+														u17 = u17 + 1;
+													end;
+												elseif v91 == 82 then
+													u18 = v90[10];
+													v79[u18]();
+													u18 = u18 - 1;
+												elseif not (v90[9] < v79[v90[4]]) then
+													u17 = u17 + 1;
+												end;
+											elseif not (v91 < 79) then
+												if v91 == 80 then
+													v79[v90[10]] = {};
+												else
+													v79[v90[10]] = v79[v90[4]] <= v79[v90[5]];
+												end;
+											elseif v91 == 78 then
+												v79[v90[10]] = p60(v90[9], v79[v90[4]]);
+											else
+												v79[v90[10]] = v90[9] == v79[v90[4]];
+											end;
+										elseif not (v91 >= 89) then
+											if not (v91 < 87) then
+												if v91 ~= 88 then
+													local v113 = v90[10];
+													for v114 = v113, v113 + (v90[5] - 1) do
+														v79[v114] = v83[u9 + (v114 - v113) + 1];
+													end;
+												else
+													v79[v90[10]] = p18(v79[v90[5]], v79[v90[4]]);
+												end;
+											elseif v91 == 86 then
+												v79[v90[10]] = v79[v90[5]] == v90[8];
+											else
+												v81[v90[1]] = v79[v90[10]];
+											end;
+										elseif v91 < 91 then
+											if v91 == 90 then
+												local v115 = v90[10];
+												local v116 = v79[v115 + 2];
+												local v117 = v79[v115] + v116;
+												v79[v115] = v117;
+												if not (v116 > 0) then
+													if v79[v115 + 1] <= v117 then
+														u17 = v90[7];
+														v79[v115 + 3] = v117;
+													end;
+												elseif v117 <= v79[v115 + 1] then
+													u17 = v90[7];
+													v79[v115 + 3] = v117;
+												end;
+											else
+												v79[v90[10]] = v79[v90[5]] * v90[8];
+											end;
+										elseif v91 ~= 92 then
+											v79[v90[10]] = v81[v90[1]];
+										else
+											v79[v90[10]] = v34(v79[v90[5]], v79[v90[4]]);
+										end;
+									elseif not (p10 <= v91) then
+										if v91 < 100 then
+											if not (v91 < 96) then
+												if not (v91 < 98) then
+													if v91 ~= 99 then
+														v79[v90[10]] = v75[v90[5]];
+													else
+														v79[v90[10]] = v34(v90[9], v79[v90[4]]);
+													end;
+												elseif v91 == 97 then
+													if not (v90[9] <= v90[8]) then
+														u17 = u17 + 1;
+													end;
+												else
+													v79[v90[10]] = v79[v90[5]] % v79[v90[4]];
+												end;
+											elseif not (v91 >= 94) then
+												if v90[4] ~= 110 then
+													v79[v90[10]] = #v79[v90[5]];
+												else
+													u17 = u17 - 1;
+													u12[u17] = {
+														[5] = (v90[5] - 24) % 256, 
+														[3] = 14, 
+														[10] = (v90[10] - 24) % p8
+													};
+												end;
+											elseif v91 ~= 95 then
+												v79[v90[10]][v90[9]] = v90[8];
+											else
+												local v118 = v90[10];
+												v79[v118] = v79[v118](v79[v118 + 1], v79[v118 + 2]);
+												u18 = v118;
+											end;
+										elseif not (v91 < p5) then
+											if v91 < 106 then
+												if v91 ~= 105 then
+													v79[v90[10]] = v90[9] ^ v90[8];
+												else
+													v79[v90[10]] = v79[v90[5]] ~= v90[8];
+												end;
+											elseif v91 == 107 then
+												v79[v90[10]] = p18(v79[v90[5]], v90[8]);
+											else
+												v75[v90[5]] = v79[v90[10]];
+											end;
+										elseif not (v91 >= 102) then
+											if v91 == 101 then
+												local v119 = v90[10];
+												u18 = v119 + v90[5] - 1;
+												v79[v119] = v79[v119](p4(v79, v119 + 1, u18));
+												u18 = v119;
+											else
+												for v120 = v90[10], v90[5] do
+													v79[v120] = p22;
+												end;
+											end;
+										elseif v91 ~= p16 then
+											local v121 = v79[v90[5]] / v79[v90[4]];
+											v79[v90[10]] = v121 - v121 % 1;
+										else
+											v79[v90[10]] = v90[9] ~= v90[8];
+										end;
+									elseif v91 < 116 then
+										if not (v91 >= 112) then
+											if not (v91 < p50) then
+												if v91 ~= 111 then
+													if v90[4] ~= 95 then
+														v79[v90[10]] = not v79[v90[5]];
+													else
+														u17 = u17 - 1;
+														u12[u17] = {
+															[3] = 69, 
+															[5] = (v90[5] - p29) % 256, 
+															[10] = (v90[10] - 138) % 256
+														};
+													end;
+												elseif v79[v90[5]] ~= v79[v90[4]] then
+													u17 = u17 + 1;
+												end;
+											elseif v91 == 109 then
+												if v90[4] ~= 65 then
+													v79[v90[10]] = -v79[v90[5]];
+												else
+													u17 = u17 - 1;
+													u12[u17] = {
+														[3] = 69, 
+														[5] = (v90[5] - 106) % 256, 
+														[10] = (v90[10] - 106) % 256
+													};
+												end;
+											else
+												local v122 = v79[v90[5]];
+												local v123 = v90[10];
+												v79[v123 + 1] = v122;
+												v79[v123] = v122[v90[8]];
+											end;
+										elseif v91 >= 114 then
+											if v91 == 115 then
+												v79[v90[10]] = v42(v79[v90[5]], v90[8]);
+											else
+												v79[v90[10]] = p6;
+												u17 = u17 + 1;
+											end;
+										elseif v91 == p15 then
+											v79[v90[10]] = p6;
+										else
+											v79[v90[10]] = v42(v90[9], v90[8]);
+										end;
+									elseif not (p58 <= v91) then
+										if not (v91 >= 118) then
+											if v91 ~= 117 then
+												v79[v90[10]] = v90[9] / v90[8];
+											else
+												v79[v90[10]] = v79[v90[5]][v79[v90[4]]];
+											end;
+										elseif v91 ~= p11 then
+											local v124 = v90[5];
+											v79[v90[10]] = v79[v124] .. v79[v124 + 1];
+										else
+											v79[v90[10]] = { p4({}, 1, v90[5]) };
+										end;
+									elseif v91 < 122 then
+										if v91 == 121 then
+											if v79[v90[5]] == v79[v90[4]] then
+												u17 = u17 + 1;
+											end;
+										else
+											v79[v90[10]] = v79[v90[5]] + v90[8];
+										end;
+									elseif v91 ~= 123 then
+										v79[v90[10]] = p60(v79[v90[5]], v79[v90[4]]);
+									else
+										local v125 = v90[10];
+										local v126 = (v90[4] - 1) * 50;
+										for v127 = 1, v90[5] do
+											v79[v125][v126 + v127] = v79[v125 + v127];
+										end;
+									end;
+								elseif not (v91 >= 31) then
+									if not (v91 >= 15) then
+										if not (v91 >= 7) then
+											if not (v91 >= 3) then
+												if v91 >= 1 then
+													if v91 ~= 2 then
+														v79[v90[10]] = v79[v90[5]] / v79[v90[4]];
+													else
+														v79[v90[10]] = v90[8] < v90[9];
+													end;
+												else
+													v79[v90[10]] = v79[v90[4]] < v79[v90[5]];
+												end;
+											elseif v91 < 5 then
+												if v91 == 4 then
+													v79[v90[10]] = v90[1];
+												else
+													local v128 = v90[10];
+													u18 = v128 + v90[5] - 1;
+													v79[v128](p4(v79, v128 + 1, u18));
+													u18 = v128 - 1;
+												end;
+											elseif v91 == 6 then
+												u17 = v90[7];
+											else
+												local v129 = v90[10];
+												v79[v129](p4(v79, v129 + 1, u18));
+												u18 = v129 - 1;
+											end;
+										elseif not (v91 < 11) then
+											if not (v91 < 13) then
+												if v91 == 14 then
+													if #u13 > 0 then
+														local v130 = {};
+														for v131, v132 in p38, u13 do
+															for v133, v134 in p38, v132 do
+																if v134[1] == v79 and v134[2] >= 0 then
+																	local v135 = v134[2];
+																	if not v130[v135] then
+																		v130[v135] = { v79[v135] };
+																	end;
+																	v134[1] = v130[v135];
+																	v134[2] = 1;
+																end;
+															end;
+														end;
+													end;
+													local v136 = v90[10];
+													return false, v136, v136 + v90[5] - 2;
+												end;
+												v79[v90[10]] = v79[v90[5]] * v79[v90[4]];
+											elseif v91 ~= 12 then
+												v79[v90[10]] = p27(v90[9], v90[8]);
+											else
+												local v137 = v90[10];
+												v79[v137] = v79[v137](p4(v79, v137 + 1, u18));
+												u18 = v137;
+											end;
+										elseif not (v91 < 9) then
+											if v91 == 10 then
+												local v138 = v90[5];
+												local v139 = v90[4];
+												local v140 = v90[10];
+												if v138 ~= 0 then
+													u18 = v140 + v138 - 1;
+												end;
+												if v138 ~= 1 then
+													local v141, v142 = v70(v79[v140](p4(v79, v140 + 1, u18)));
+													local v143 = v141;
+													local v144 = v142;
+												else
+													local v145, v146 = v70(v79[v140]());
+													v143 = v145;
+													v144 = v146;
+												end;
+												if v139 ~= 1 then
+													if v139 == 0 then
+														local v147 = v143 + v140 - 1;
+														u18 = v147;
+													else
+														v147 = v140 + v139 - 2;
+														u18 = v147 + 1;
+													end;
+													local v148 = 0;
+													for v149 = v140, v147 do
+														v148 = v148 + 1;
+														v79[v149] = v144[v148];
+													end;
+												else
+													u18 = v140 - 1;
+												end;
+											elseif v90[9] ~= v90[8] then
+												u17 = u17 + 1;
+											end;
+										elseif v91 ~= 8 then
+											local v150 = nil;
+											local v151 = u14[v90[7]];
+											local v152 = v151[9];
+											if v152 > 0 then
+												v150 = {};
+												for v153 = 0, v152 - 1 do
+													local v154 = u12[u17];
+													if v154[3] ~= 35 then
+														v150[v153] = p69[v154[5]];
+													else
+														v150[v153] = { v79, v154[5] };
+													end;
+													u17 = u17 + 1;
+												end;
+												p59(u13, v150);
+											end;
+											v79[v90[10]] = u8(v81, v151, v150);
+										else
+											v79[v90[10]][v79[v90[5]]] = v90[8];
+										end;
+									elseif not (v91 >= 23) then
+										if not (v91 < 19) then
+											if not (v91 < 21) then
+												if v91 ~= 22 then
+													v79[v90[10]] = p27(v79[v90[5]], v79[v90[4]]);
+												else
+													v79[v90[10]] = v79[v90[5]] + v79[v90[4]];
+												end;
+											elseif v91 ~= 20 then
+												v79[v90[10]] = v79[v90[4]] <= v90[9];
+											else
+												v79[v90[10]] = v79[v90[5]] < v90[8];
+											end;
+										elseif not (v91 < 17) then
+											if v91 ~= 18 then
+												local v155 = nil;
+												local v156 = v90[5];
+												v155 = v79[v156];
+												for v157 = v156 + 1, v90[4] do
+													v155 = v155 .. v79[v157];
+												end;
+												v79[v90[10]] = local v158;
+											else
+												v79[v90[10]] = v90[9] < v90[8];
+											end;
+										else
+											if v91 == 16 then
+												if #u13 > 0 then
+													local v159 = {};
+													for v160, v161 in p38, u13 do
+														for v162, v163 in p38, v161 do
+															if v163[1] == v79 and v163[2] >= 0 then
+																local v164 = v163[2];
+																if not v159[v164] then
+																	v159[v164] = { v79[v164] };
+																end;
+																v163[1] = v159[v164];
+																v163[2] = 1;
+															end;
+														end;
+													end;
+												end;
+												return true, v90[10], 1;
+											end;
+											if not (v79[v90[5]] <= v90[8]) then
+												u17 = u17 + 1;
+											end;
+										end;
+									elseif not (v91 < 27) then
+										if not (v91 < 29) then
+											if v91 == 30 then
+												local v165 = p69[v90[5]];
+												v79[v90[10]] = v165[1][v165[2]];
+											else
+												v79[v90[10]] = v90[8] < v79[v90[5]];
+											end;
+										elseif v91 ~= 28 then
+											local v166 = p69[v90[5]];
+											v166[1][v166[2]] = v79[v90[10]];
+										else
+											local v167 = v84 - u9;
+											local v168 = v90[10];
+											if v167 < 0 then
+												v167 = -1;
+											end;
+											for v169 = v168, v168 + v167 do
+												v79[v169] = v83[u9 + (v169 - v168) + 1];
+											end;
+											u18 = v168 + v167;
+										end;
+									elseif v91 < 25 then
+										if v91 ~= 24 then
+											local v170 = v90[10];
+											local v171 = v170 + 2;
+											local v172 = { v79[v170](v79[v170 + 1], v79[v171]) };
+											for v173 = 1, v90[4] do
+												v79[v171 + v173] = v172[v173];
+											end;
+											local v174 = v79[v170 + 3];
+											if v174 == nil then
+												u17 = u17 + 1;
+											else
+												v79[v171] = v174;
+											end;
+										elseif v79[v90[5]] <= v90[8] then
+											u17 = u17 + 1;
+										end;
+									elseif v91 ~= 26 then
+										if not (v90[9] <= v79[v90[4]]) then
+											u17 = u17 + 1;
+										end;
+									else
+										v79[v90[10]] = v79[v90[5]] == v79[v90[4]];
+									end;
+								elseif not (v91 >= 46) then
+									if not (v91 < 38) then
+										if not (v91 >= 42) then
+											if v91 >= 40 then
+												if v91 == 41 then
+													local v175 = v90[10];
+													v79[v175] = v79[v175](v79[v175 + 1]);
+													u18 = v175;
+												else
+													v79[v90[10]] = v79[v90[5]] ^ v79[v90[4]];
+												end;
+											elseif v91 ~= 39 then
+												v79[v90[10]] = v79[v90[5]] < v79[v90[4]];
+											else
+												v79[v90[10]] = v79[v90[5]][v90[8]];
+											end;
+										elseif not (v91 < 44) then
+											if v91 ~= 45 then
+												local v176 = (v90[4] - 1) * 50;
+												local v177 = v90[10];
+												for v178 = 1, u18 - v177 do
+													v79[v177][v176 + v178] = v79[v177 + v178];
+												end;
+											else
+												v79[v90[10]] = v79[v90[5]] <= v79[v90[4]];
+											end;
+										elseif v91 == 43 then
+											local v179 = v90[10];
+											local v180 = v79[v90[5]];
+											v79[v179 + 1] = v180;
+											v79[v179] = v180[v79[v90[4]]];
+										elseif v90[4] == 38 then
+											u17 = u17 - 1;
+											u12[u17] = {
+												[3] = 69, 
+												[10] = (v90[10] - 50) % 256, 
+												[5] = (v90[5] - 50) % 256
+											};
+										else
+											v79[v90[10]] = v83[u9 + 1];
+										end;
+									elseif not (v91 < 34) then
+										if v91 >= 36 then
+											if v91 ~= 37 then
+												v79[v90[10]] = v90[1];
+											else
+												local v181 = v90[10];
+												local v182 = v181 + 1;
+												local v183 = v181 + 2;
+												v79[v181] = p39(p20(v79[v181]), p14);
+												v79[v182] = p39(p20(v79[v182]), p19);
+												v79[v183] = p39(p20(v79[v183]), p44);
+												v79[v181] = v79[v181] - v79[v183];
+												u17 = v90[7];
+											end;
+										elseif v91 ~= 35 then
+											if v79[v90[10]] then
+												u17 = u17 + 1;
+											end;
+										elseif v90[4] == 153 then
+											u17 = u17 - 1;
+											u12[u17] = {
+												[10] = (v90[10] - 65) % 256, 
+												[3] = 93, 
+												[5] = (v90[5] - 65) % 256
+											};
+										elseif v90[4] ~= p17 then
+											v79[v90[10]] = v79[v90[5]];
+										else
+											u17 = u17 - 1;
+											u12[u17] = {
+												[3] = 14, 
+												[5] = (v90[5] - 180) % 256, 
+												[10] = (v90[10] - p13) % 256
+											};
+										end;
+									else
+										if v91 < 32 then
+											break;
+										end;
+										if v91 ~= 33 then
+											if v90[4] == 91 then
+												u17 = u17 - 1;
+												u12[u17] = {
+													[10] = (v90[10] - 158) % 256, 
+													[3] = 55, 
+													[4] = (v90[5] - 158) % 256
+												};
+											elseif v90[4] ~= 40 then
+												v79[v90[10]] = p22;
+											else
+												u17 = u17 - 1;
+												u12[u17] = {
+													[3] = 34, 
+													[10] = (v90[10] - 21) % 256, 
+													[4] = (v90[5] - 21) % 256
+												};
+											end;
+										else
+											v79[v90[10]] = v79[v90[5]] % v90[8];
+										end;
+									end;
+								elseif not (v91 >= 54) then
+									if not (v91 >= 50) then
+										if not (v91 < 48) then
+											if v91 ~= 49 then
+												v79[v90[10]] = v90[9] < v79[v90[4]];
+											else
+												v79[v90[10]] = p60(v90[9], v90[8]);
+											end;
+										elseif v91 == 47 then
+											v79[v90[10]] = v34(v90[9], v90[8]);
+										else
+											local v184 = v79[v90[5]];
+											if v184 then
+												v79[v90[10]] = v184;
+											else
+												u17 = u17 + 1;
+											end;
+										end;
+									elseif v91 < 52 then
+										if v91 == 51 then
+											if v90[4] ~= 157 then
+												while true do
+													local v185 = v90[10];
+													if #u13 > 0 then
+														local v186 = {};
+														for v187, v188 in p38, u13 do
+															for v189, v190 in p38, v188 do
+																if v190[1] == v79 and v185 <= v190[2] then
+																	local v191 = v190[2];
+																	if not v186[v191] then
+																		v186[v191] = { v79[v191] };
+																	end;
+																	v190[1] = v186[v191];
+																	v190[2] = 1;
+																end;
+															end;
+														end;
+													end;
+													if p6 then
+														break;
+													end;												
+												end;
+											else
+												u17 = u17 - 1;
+												u12[u17] = {
+													[5] = (v90[5] - 73) % 256, 
+													[3] = 109, 
+													[10] = (v90[10] - 73) % 256
+												};
+											end;
+										elseif v90[9] < v79[v90[4]] then
+											u17 = u17 + 1;
+										end;
+									elseif v91 ~= 53 then
+										v79[v90[10]] = v90[9] + v79[v90[4]];
+									else
+										v79[v90[10]] = v90[9] % v90[8];
+									end;
+								elseif v91 >= 58 then
+									if not (v91 >= 60) then
+										if v91 ~= 59 then
+											if v79[v90[5]] == v90[8] then
+												u17 = u17 + 1;
+											end;
+										else
+											v79[v90[10]] = v79[v90[5]] <= v90[8];
+										end;
+									elseif v91 ~= 61 then
+										local v192 = v90[10];
+										v79[v192](v79[v192 + 1], v79[v192 + 2]);
+										u18 = v192 - 1;
+									else
+										v79[v90[10]] = v79[v90[5]] - v79[v90[4]];
+									end;
+								elseif not (v91 < 56) then
+									if v91 ~= 57 then
+										v79[v90[10]] = v79[v90[5]] ~= v79[v90[4]];
+									else
+										v79[v90[10]][v90[9]] = v79[v90[4]];
+									end;
+								elseif v91 ~= 55 then
+									v79[v90[10]] = v79[v90[5]] ^ v90[8];
+								elseif v90[5] ~= 160 then
+									if not v79[v90[10]] then
+										u17 = u17 + 1;
+									end;
+								else
+									u17 = u17 - 1;
+									u12[u17] = {
+										[3] = 74, 
+										[10] = (v90[10] - 54) % 256, 
+										[5] = (v90[4] - 54) % 256
+									};
+								end;							
+							end;
+							local v193 = v90[5];
+							local v194 = v90[10];
+							u18 = v194 + v193 - 1;
+							while true do
+								if #u13 > 0 then
+									local v195 = {};
+									for v196, v197 in p38, u13 do
+										for v198, v199 in p38, v197 do
+											if v199[1] == v79 and v199[2] >= 0 then
+												local v200 = v199[2];
+												if not v195[v200] then
+													v195[v200] = { v79[v200] };
+												end;
+												v199[1] = v195[v200];
+												v199[2] = 1;
+											end;
+										end;
+									end;
+								end;
+								if p6 then
+									break;
+								end;							
+							end;
+							return p6, v194, v193;
+						end);
+						if not v86 then
+							if p2(v87) ~= "string" then
+								p41(v87, 0);
+							elseif p28(v87, "^.-:%d+: ") then
+								p41("LuraphScript:" .. (u15[u17 - 1] and "(internal)") .. ":" .. p40(v87), 0);
+							else
+								p41(v87, 0);
+							end;
+						elseif v87 then
+							if v89 == 1 then
+								return v79[v88]();
+							else
+								return v79[v88](p4(v79, v88 + 1, u18));
+							end;
+						elseif v88 then
+							return p4(v79, v88, v89);
+						end;
+					end;
+					p21(u16, p67);
+					return p22;
+				end;
+				v74 = 1;
+			end;
+		elseif v74 ~= 0 then
+			local u19 = v72;
+			local function u20()
+				local v201 = 1;
+				local v202 = p22;
+				while v201 < 2 do
+					if v201 ~= 0 then
+						v201 = 0;
+					else
+						v202 = { p22, p22, p22, {}, {}, p22, {}, p22, p22 };
+						v201 = 2;
+					end;				
+				end;
+				local v203 = 2;
+				local v204 = p22;
+				local v205 = p22;
+				local v206 = p22;
+				while true do
+					if not (v203 <= 1) then
+						if v203 ~= 2 then
+							v206 = 1;
+							v203 = 0;
+						else
+							v204 = {};
+							v203 = 1;
+						end;
+					elseif v203 ~= 0 then
+						v205 = {};
+						v203 = 3;
+					else
+						v202[17] = v12();
+						v203 = 4;
+					end;
+					if v203 > 3 then
+						break;
+					end;				
+				end;
+				local v207 = 1;
+				local v208 = p22;
+				local v209 = p22;
+				while true do
+					if not (v207 <= 1) then
+						if not (v207 <= 2) then
+							if v207 == 3 then
+								v202[1] = v11();
+								v207 = 2;
+							else
+								v209 = v11();
+								v207 = 5;
+							end;
+						else
+							v208 = v12();
+							v207 = 0;
+						end;
+					elseif v207 == 0 then
+						for v210 = 1, v208 do
+							v202[4][v210 - 1] = u20();
+						end;
+						v207 = 4;
+					else
+						v202[9] = v11();
+						v207 = 3;
+					end;
+					if v207 >= 5 then
+						break;
+					end;				
+				end;
+				local v211 = 0;
+				while true do
+					if v211 ~= 0 then
+						v202[6] = v24(1, v209, 2) ~= 0;
+						break;
+					end;
+					v202[2] = v24(1, v209, 1) ~= 0;
+					v211 = 1;
+					if p9 then
+						break;
+					end;				
+				end;
+				local v212 = 6;
+				local v213 = p22;
+				local v214 = p22;
+				local v215 = p22;
+				local v216 = p22;
+				local v217 = p22;
+				local v218 = p22;
+				while v212 <= 12 do
+					if not (v212 <= 5) then
+						if not (v212 <= 8) then
+							if not (v212 <= 10) then
+								if v212 ~= 11 then
+									v202[13] = v11();
+									v212 = 13;
+								else
+									v214 = v11();
+									v212 = 7;
+								end;
+							elseif v212 ~= 9 then
+								v216 = v12() - p26;
+								v212 = 2;
+							else
+								for v219 = 1, v213 do
+									local v220 = p22;
+									local v221 = p22;
+									local v222 = 0;
+									while v222 < 2 do
+										if v222 ~= 0 then
+											v221 = v11();
+											v222 = 2;
+										else
+											v222 = 1;
+										end;									
+									end;
+									local v223 = 0;
+									while v223 < 1 do
+										if v221 == 196 then
+											v220 = v32();
+										elseif v221 == 144 then
+											v220 = p6;
+										elseif v221 == 197 then
+											v220 = v33() + v12();
+										elseif v221 == p3 then
+											v220 = p9;
+										elseif v221 == 128 then
+											v220 = v5(v45(v214), 3);
+										elseif v221 == 122 then
+											v220 = v5(v45(v214), v33() + v12());
+										elseif v221 == 66 then
+											v220 = v33();
+										elseif v221 == 185 then
+											v220 = v5(v45(v214), 3);
+										elseif v221 == 11 then
+											v220 = v33();
+										elseif v221 == 16 then
+											v220 = v5(v45(v214), v12());
+										end;
+										v223 = 1;									
+									end;
+									v204[v219 - 1] = v206;
+									local v224 = { v220, {} };
+									v205[v206] = v224;
+									local v225 = 0;
+									while p6 do
+										if v225 ~= 0 then
+											if v215 then
+												local v226 = 1;
+												while p6 do
+													if v226 == 0 then
+														u19 = u19 + 1;
+														break;
+													end;
+													v71[u19] = v224;
+													v226 = 0;												
+												end;
+											end;
+											break;
+										end;
+										v206 = v206 + 1;
+										v225 = 1;									
+									end;
+								end;
+								v212 = 5;
+							end;
+						elseif v212 <= 6 then
+							v202[8] = v11();
+							v212 = 8;
+						elseif v212 ~= 7 then
+							v202[10] = v11();
+							v212 = 3;
+						else
+							v215 = v11() ~= 0;
+							v212 = 9;
+						end;
+					elseif not (v212 <= 2) then
+						if not (v212 <= 3) then
+							if v212 ~= 4 then
+								v202[15] = v12();
+								v212 = 10;
+							else
+								for v227 = 1, v218 do
+									local v228 = v12();
+									local v229 = 2;
+									local v230 = p22;
+									local v231 = p22;
+									while v229 ~= 3 do
+										if v229 <= 0 then
+											for v232 = v228, v230 do
+												v202[7][v232] = v231;
+											end;
+											v229 = 3;
+										elseif v229 ~= 1 then
+											v230 = v12();
+											v229 = 1;
+										else
+											v231 = v12();
+											v229 = 0;
+										end;									
+									end;
+								end;
+								v212 = 12;
+							end;
+						else
+							v213 = v12() - 133771;
+							v212 = 11;
+						end;
+					elseif v212 <= 0 then
+						for v233 = 1, v216 do
+							local v234 = { p22, p22, p22, p22, p22, p22, p22, p22, p22, p22 };
+							local v235 = v44(v217);
+							local v236 = 15;
+							while p6 do
+								if not (v236 <= 7) then
+									if not (v236 <= 11) then
+										if not (v236 <= 13) then
+											if not (v236 <= 14) then
+												if v236 == 15 then
+													v234[18] = v24(27, v235, 15);
+													v236 = 5;
+												else
+													v234[3] = v11();
+													v236 = 1;
+												end;
+											else
+												v234[16] = v24(2, v235, 18);
+												v236 = 6;
+											end;
+										elseif v236 ~= 12 then
+											v234[7] = v24(18, v235, 14);
+											v236 = 16;
+										else
+											v234[5] = v24(9, v235, 14);
+											v236 = 4;
+										end;
+									elseif not (v236 <= 9) then
+										if v236 ~= 10 then
+											v234[16] = v24(2, v235, 18);
+											v236 = 7;
+										else
+											v234[3] = v11();
+											v236 = 5;
+										end;
+									elseif v236 ~= 8 then
+										v234[17] = v24(16, v235, 14);
+										v236 = 1;
+									else
+										v234[19] = v24(29, v235, 28);
+										v236 = 13;
+									end;
+								elseif v236 <= 3 then
+									if not (v236 <= 1) then
+										if v236 ~= 2 then
+											v234[17] = v24(16, v235, 14);
+											break;
+										end;
+										v234[5] = v24(9, v235, 14);
+										v236 = 8;
+									elseif v236 == 0 then
+										v234[19] = v24(29, v235, 28);
+										v236 = 1;
+									else
+										v234[10] = v24(8, v235, 6);
+										v236 = 12;
+									end;
+								elseif not (v236 <= 5) then
+									if v236 ~= 6 then
+										v234[16] = v24(2, v235, 30);
+										v236 = 8;
+									else
+										v234[10] = v24(8, v235, 6);
+										v236 = 17;
+									end;
+								elseif v236 == 4 then
+									v234[18] = v24(8, v235, 9);
+									v236 = 3;
+								else
+									v234[4] = v24(9, v235, 23);
+									v236 = 11;
+								end;							
+							end;
+							v202[5][v233] = v234;
+						end;
+						v212 = 1;
+					elseif v212 == 1 then
+						v218 = v12();
+						v212 = 4;
+					else
+						v217 = v11();
+						v212 = 0;
+					end;				
+				end;
+				v202[3] = v11();
+				local v237 = v46[v202[3]];
+				for v238 = 0, 1 do
+					if v238 ~= 0 then
+						return v202;
+					end;
+					for v239 = 1, v216 do
+						local v240 = p22;
+						local v241 = p22;
+						local v242 = p22;
+						local v243 = 4;
+						while true do
+							if v243 <= 2 then
+								if not (v243 <= 0) then
+									if v243 ~= 1 then
+										v241 = v237[v240[3]];
+										v243 = 1;
+									else
+										v242 = v241 == 0;
+										v243 = 0;
+									end;
+								else
+									if v241 == 2 then
+										v240[7] = v239 + (v240[7] - 131071) + 1;
+									end;
+									v243 = 3;
+								end;
+							elseif not (v243 <= 3) then
+								if v243 ~= 4 then
+									if (v241 == 5 or v242) and v240[4] > 255 then
+										local v244 = 3;
+										local v245 = p22;
+										local v246 = p22;
+										while true do
+											if not (v244 <= 1) then
+												if v244 ~= 2 then
+													v240[6] = p6;
+													v244 = 1;
+												else
+													v246 = v205[v245];
+													v244 = 0;
+												end;
+											elseif v244 ~= 0 then
+												v245 = v204[v240[4] - p8];
+												v244 = 2;
+											else
+												if v246 then
+													local v247 = 0;
+													local v248 = p22;
+													while true do
+														if v247 == 0 then
+															v240[8] = v246[1];
+															v247 = 1;
+														else
+															v248 = v246[2];
+															v247 = 2;
+														end;
+														if v247 == 2 then
+															break;
+														end;													
+													end;
+													v248[#v248 + 1] = { v240, 8 };
+												end;
+												v244 = 4;
+											end;
+											if v244 >= 4 then
+												break;
+											end;										
+										end;
+									end;
+									break;
+								end;
+								v240 = v202[5][v239];
+								v243 = 2;
+							else
+								if v241 == 15 then
+									local v249 = 0;
+									local v250 = p22;
+									local v251 = p22;
+									while true do
+										if not (v249 <= 0) then
+											if v249 == 1 then
+												if v251 then
+													local v252 = 0;
+													local v253 = p22;
+													while v252 <= 1 do
+														if v252 ~= 0 then
+															v253 = v251[2];
+															v252 = 2;
+														else
+															v240[1] = v251[1];
+															v252 = 1;
+														end;													
+													end;
+													v253[#v253 + 1] = { v240, 1 };
+												end;
+												break;
+											end;
+											v251 = v205[v250];
+											v249 = 1;
+										else
+											v250 = v204[v240[7]];
+											v249 = 2;
+										end;
+										if p9 then
+											break;
+										end;									
+									end;
+								end;
+								v243 = 5;
+							end;
+							if p9 then
+								break;
+							end;						
+						end;
+						if (v241 == 14 or v242) and v240[5] > 255 then
+							local v254 = p22;
+							local v255 = p22;
+							local v256 = 3;
+							while true do
+								if v256 <= 1 then
+									if v256 == 0 then
+										v255 = v205[v254];
+										v256 = 2;
+									else
+										v254 = v204[v240[5] - 256];
+										v256 = 0;
+									end;
+								elseif v256 ~= 2 then
+									v240[2] = p6;
+									v256 = 1;
+								else
+									if v255 then
+										v240[9] = v255[1];
+										local v257 = v255[2];
+										v257[#v257 + 1] = { v240, 9 };
+									end;
+									v256 = 4;
+								end;
+								if v256 >= 4 then
+									break;
+								end;							
+							end;
+						end;
+					end;
+				end;
+			end;
+			v74 = 0;
+		else
+			v76 = p22();
+			v74 = 5;
+		end;	
+	end;
+	for v258 = 0, 1 do
+		if v258 ~= 0 then
+			v71 = p22;
+		else
+			v75[2] = v71;
+		end;
+	end;
+	return p22(v4, v76, p22)(...);
+end)("LPH/58B3013E00B0BFB2003H0BBB2H00B000B00BBB0BBB2F50B05B2H0B00B000B02H000BB0BB00BB2H000B2H002H0BF0B000F22HB0000BBB2H000BB50BB00B50BB00B0EAF34061002H023H009B069C68000D063H00C41DE7450106013H0042AAC17802055H00026F910A0200EDFBB9063H0058CB448BA30DB9133H00C6A1EE6537B9B01F434C55A4CB3CEB24638803B9063H00031A539AFF19B90A3H0019782AE45987824F68FE426H00F0BFB9083H00D3AAD61950ACCF9C1368E006E00A02001BB333B53306A2E2A422062HF5F375069C5C2H9C07C747C6C75BE626E7E624A92911D97700C03A76775B6A5FFE35EA26D55407DD94424A076446DDA80AEFDB0666592ED01A06159192A8A46A88488A0806033H835B3H32B2062HC544455B2CECACAD403H971706F676087664393HF91E3H90113D2HEBAAEA323HFA7A06EDADE86D0634B91CAF372HFF2H7F5B4H3E2721E1DE5E063H1819273H53D3062H42C3C25B95D59594793HBC3C06672763E7062H862H065B3H49C9062HA021205B4H3B273H8A0A062HBD3C3D5B3H4446273H4FCF062HCE4F4E5B7131717079A82852D70623A3D45C06D23H524165E565E5370C3C489C66B7772H371B965669E906995961E606B03H305B3H8B0B062H9A1B1A5B0DCD8D8C40543HD41B1F5FE86006193H00013H00083H00013H00093H00093H00B689641C0A3H000A3H002617B70E0B3H000B3H00F59CAF3F0C3H000C3H00269FAC680D3H000D3H009F28CF6D0E3H000E3H006705BC640F3H000F3H00E804F221103H00133H00013H00143H00143H003C3H00153H00163H00013H00173H001B3H003C3H001C3H001D3H00013H001E3H00203H00393H00213H00223H00013H00233H00253H00393H00263H00283H00013H00293H00293H003B3H002A3H002B3H00013H002C3H002C3H003B3H002D3H002E3H00013H002F3H00313H003B3H00323H003A3H00013H003B3H003B3H003A3H003C3H003D3H00013H00AD2H0001BF8F0A020019EBB90E3H003B1643FFE96292C16A554C979CC2B9093H008D1841DF94BA9F2B16B90E3H0090633984B3B0375BD2B5A4C767B0B90A3H003235D8ABD907F621ED821BD7AC78C70A0200BBDE1EDD5E0661E162E10678387BF8065313525307622263625B55D55455242H1C256F77E7275D9277662455B95589BAFFC71940C7313F1A3B8C0D6B46AAC22FCA257D1A526A5B24B560FC618F97553072AE7FD44C58F12HB1316C2H482H8824E33H2322F26875F523E565A5A45F3H2CAC06F737CCB7642H362HB62059D959D937105083DE084BCB8B0A272H7A2H3A6C0D4C2H4D0734B42H34234H9F1E2H3E7EFE3C3H018106589894986473FE5BE837133H00013H00083H00013H00093H00093H000E35FF5F0A3H000A3H00017C8F640B3H000B3H00D52EB84D0C3H000C3H00824E60150D3H000D3H004A940F190E3H000E3H00FB702D790F3H000F3H002BB4E824103H00103H007CDB3430113H00113H00D709EA71123H00133H00363H00143H00153H00013H00163H00163H00363H00173H00183H00013H00193H00193H00363H001A3H001B3H00013H001C3H00213H00383H00223H00233H00013H00243H00243H00383H00C60090A1F94202056H00A3990A020015DC426H004EC0B9033H00F8ABBAB9033H00B52C80B90D3H00EED9729EA799E3764F6C830E6AB9053H00C57C602545426H0034C0B9063H0070836D291F5CB9063H002671293328BEB9033H00CC0F67B9183H00F9C0FF6B39957BDAC6C9C201345517DA0C75329769790221B9093H009138C657B3EA4F2013428H00B90B3H006033873625C86DF5D87FF6B9053H0005BC15642F95AC445C080B02003B82428C020675F57BF5063C7C32BC062H07062H0746862H465BA969AAA92420E0185077DB5B61AE770AE9A34E305D7DEF3A13448375293D2F91DACD0DCEF8C06977115D5CD20A68B1D8056E83E3AD426392DDEEB102C545CF45060C3H4C412H972HD71B2HD6D05606B93HF91E2H7030B6272HEB2B2A273HDA5A062DAD2H6D5B2H14D4D0273HBF3F065EDE2H1E5B21612H2123F878B9B85B3H139306E2622HA25B2H55959327DC5C2HDC27E727A7A6292H26A766514989B336062H404DC0063B3H7B1E2H2A6AEC273HBD3D0624A42H645BCF3H8F223HAE2E062H7175F106C888CD48066323E1E324B23H32222546F01A1F2HAC6E6C242H7776F7063HF674273H99190650902H505B0B8B494B24FABA0785062H0D2H0C653H74F4065F9F6B5F643EFE3FBE06C141C3C15B2HD825A706F33HB31E2H82C244272HF5353427FC397968204707BD3806864675F906A969E8E95B3H60E0065BDB2H1B5B2HCA8A8B403H5DDD06C484AB8464AF6A2A3B20CE8ECD4E062H11E76E062868E8E92983437CFC062H5292533205C5F37A068C0C8D0C062HD79791273H1696062HF92H395B707170F427EBAB1694062HDA1B1A5B2HAD53D206941479EB067FF257E437DE9E5F5E5B61A19E1E063H787E27932H53D2272H62E2E3295595AA2A062HDCDD9D51E7A70C9806A6265AD906293H00013H00083H00013H00093H00093H009AA7D56B0A3H000A3H00F687B50A0B3H000B3H00B4B0D6530C3H000C3H003F7628150D3H000D3H001BF1255A0E3H000E3H0028A7DC690F3H000F3H00E11C275F103H00103H00974EB066113H00113H00B811F52B123H00163H00013H00173H00183H00483H00193H001A3H00013H001B3H001B3H00483H001C3H00213H00013H00223H00273H004A3H00283H00283H00013H00293H00293H00473H002A3H002B3H00013H002C3H002E3H00473H002F3H002F3H00013H00303H00303H00443H00313H00323H00013H00333H00353H00443H00363H00373H00013H00383H003A3H00443H003B3H003C3H00013H003D3H003D3H00443H003E3H00403H00013H00413H00453H00473H00463H00483H00013H00493H00493H00463H004A3H004B3H00013H004C3H004E3H00463H004F3H00543H004A3H00553H00563H00013H00573H00583H004A3H00593H005A3H00013H005B3H005B3H004A3H005C3H005E3H00013H005F3H00653H004A3H002500F24E46200105013H008A1A767D2H026H003C8D0A02000580B90B3H00B0C32AD7E55E50DD4FB352426H0049C0B1DC4C76C20A0200F589C98A09062H3A39BA0607C70587062H00010007F5752HF55B76B62H7624D353EBA2771C9C276B77E122428B72B29A8ED94CDF47EAE343B8BBC2426D4DF4F675372E886F2075EBEDCBAB6E4H941E3HB93906AA2A2HAA5B3HB737273HF0700625A52H255BA6E62H66543H8303063H0C8C06D15CF94A374HE2412H0F8F0F3728161BCD2E3D7D2H3D1B9E5E61E1062H5BA524060D3H00013H00083H00013H00093H00093H006C2B0E5B0A3H000A4H00C9A6750B3H000B3H00A325A2300C3H000C3H00B2422A3D0D3H000D3H00C33289100E3H000E3H00E54640560F3H000F3H00E4A35F54103H00123H00013H00133H00133H002F3H00143H00153H00013H00163H00183H002F3H00193H001F3H00013H002F2H0001F9900A0200A99BB90B3H0045E0FEFFDDB2E4FD8F6F76B90A3H0036F9E08B9917CEA13D42B90E3H006C9FD94DEF847893B4AB86659AE4B91A3H00DEE1DBD7446A1EB5B8070E16B919E41BA655B996A313EBB4C9AEB9093H0004F719DF4C02D76B1E22F4922BC20A02002184C48704062H15169506428240C2062H1B1A1B0770F071705BD111D0D1248E4E36FF77B7F78CC177DC1EF97A4ECD48837A7B1AAC622C67D3878BBB5D480952952309FDBB7417A688BCB5616F2H2FAE6C74F42HB424453H8522F257524A6C4BCB0B0A5F20E020216C41402H4124BEFE3E3F5F3HA727062HCC314C642H3DBD3F6C4A4B2H4A0703432H03234HB81E793979F93C16562H164A0E3H00013H00083H00013H00093H00093H00FEA861280A3H000A3H00A2CC8C5B0B3H000B3H0056D53E340C3H000C3H000C275A040D3H000D3H00D352FC060E3H000E3H0011E0A8730F3H000F3H00C8FD0B60103H00113H002C3H00123H00133H00013H00143H00143H002C3H00153H00173H002E3H00183H00193H00013H001A3H001F3H002E3H003100D81B69440105013H00D6FA212B2H026H00DB8D0A020035D5B90B3H006F4E1DE182A38990232DBE426H0030C045771D6BBF0A0200F31FDF1C9F06B636B536061151129106A0602HA00713932H135B5A9A2H5A24A5251DD77764E45E1277C7C1A8B031FE041C1E2B3948D71F1A6865092B333B4C359838A215D53E1FCD6F4B48092CD64E2C706F72E581064HC61E3HE1610630B02H305B3H63E3273H6AEA0675F52H755BB4F42H745497D79717064H4E4149092H491B78F550E3370F3H00013H00083H00013H00093H00093H005825B4670A3H000A3H008DAEA1750B3H000B3H00F939837F0C3H000C3H00D62H06490D3H000D3H008F9B18590E3H000E3H0004BA85450F3H000F3H00C59BE13C103H00103H005276CA1B113H00113H0061479D19123H00143H00013H00153H00153H00253H00163H00173H00013H00183H00193H00253H001A3H001C3H00013H003E2H000131900A02005DDDB90B3H00083B1DA972EBA9C893059EB9093H00B514F93B70F2AF7F42B91A3H005CBF2941365C0483A251CCD09BFFDE9D9C938B80D16571829378B90A3H004EA9209385EBB62HD13EB90E3H0080D3D5B16F2C541F2C4B4A790ACC0C9CAC51C50A0200070B8B088B0686C6852H062HB5B6350648084948072FAF2E2F5B9A5A9B9A24F9B9C08977FCBCC78B77537D8D6F3BAE4F19406AFDEACFDB55F000DD8533F7F17D3E1182DAA2F5264152DF1A7AE45C0DE12E5B2H1B996C2H962H5624853H452258D8DB936E7FFF3F3E5F3H6AEA06C949978964CC0C4CCD6CA3A22HA324BEBF2HBE228DC708393DC08040415F4HC76C52532H5207D1912HD1234H741EABEBAB2B3CA62B8E3D37103H00013H00083H00013H00093H00093H0056513B600A3H000A3H00AEF8B2230B3H000B3H00732320230C3H000C3H001585E42F0D3H000D3H0064599A2F0E3H000E3H00D64E04540F3H000F3H00BE78B86E103H00103H009649DF29113H00123H00223H00133H00143H00013H00153H00153H00223H00163H00173H00013H00183H00193H00243H001A3H001B3H00013H001C3H00223H00243H00F9008EEE1B4001045H000198920A02007571B9083H00E67159E9A1FC6D0EB9173H00CE79F1341FB613D7B289802D7ED45735F47DFC1F3B4DB6429A5H99B9BFB9063H000786EF390278426H0008C0B9053H00358C84952F426H33C3BFB8942252DB0A020003D555D65506E4A4E764062HD7D457062H9E9F9E0769A92H695B2HA8AAA8242H0B327A772H82B9F5773DC883E56E2C261A1C1F3F8A6FA607261DFF12335195CE3E6FF0429F3F6D339313E3628A08CE204EE53HA51E3H74F40667E72H275B2HEEAE2E273H39B90678F82H385BDB3H5B1E4H12273H0D8D06BCFC2H3C5B2H8FCFCE6F2HB6B2360621A120A10680C02H804A2HC30301273H1A9A0635B52H755B842H0487782H7776F706FE38B8895D49C92H095BC80835B706EBAB6AAB34A2225CDD069D5DDDDC294C3HCC1E4H9F272H86C6C70D2HF10F8E0650D02H105B2H93535127AA2H2AAB7805C5454429143H941E3HC747064E0E2HCE5B2H59D959272H1858590DBBFB3AFB34F22H1FC623193H00013H00083H00013H00093H00093H00CCC6316C0A3H000A3H0091AB314A0B3H000B3H0009D31B1C0C3H000C3H00556DC8590D3H000D3H0087E88B1A0E3H000E3H00E3FC31710F3H000F3H001E013639103H00103H00A2869974113H00133H00013H00143H00143H00163H00153H00163H00013H00173H00183H00163H00193H001A3H00013H001B3H001D3H00163H001E3H001E3H00013H001F3H001F3H00173H00203H00213H00013H00223H00243H00173H00253H00263H00013H00273H002D3H00173H002E3H002E3H00013H002F3H00323H001A3H00333H00343H00013H00353H00383H001A3H00C600C337A27302036H0066930A0200D94CB90B3H004093F342B53879C1F0D792B90B3H00493449D3CF049D4ED566F1426H00F0BFB90A3H009ADD40E1A7CFDCF7ABC8B9123H002073E6D95BA9D0530F949CC3295C0E7DC494B9063H00BE614B33E95E426H0031C0B9103H00889B743124F86C49D09FF67BE25506B4ADF58F75F60A0200E9AD2DA02D0642024FC2062HE3EE6306E0A0E1E00749C92H495BEEAEECEE245F1FE62E77ECAC569977A5513EEC155AB85A52255B4AA94156F82A1F81584153222747C620221627D77968AB4B0415DE083D9D1D941D064H721E3H53D30690102H905B3H39B9273H1E9E06CF4F2HCF5B3H9C1E2795556AEA062H8A0A0B273H0B8B0668E82H685B2HF1B0B15B2H362HB624873H0722F45F891B25CD2H0D8D443HA222068303A6C364003H401E2H6929A9273H4ECE067FBF2H3F5B2H0C4CCE273H850506FA3A2HBA5B2H3BFBFA2718D8E76706E1A121A13D2HA62H662777F7B67732A424A024067DFD79FD063HD252277376362720F070F3700619591999064H7E1EAFEF51D006FC7CFF7C06753574755BAA6A2HEA24AB3HEB2208E10B815B91119190293H169606E727AFE76414115140203H6DED060282FE7D0623AE0BB837A0605CDF06493H09412HEE2HAE1B1FDFE160064HAC1E3H65E5061A9A2H1A4H5BDB272H78F8FB6C0181808124C63H462217A75E930804C404055F1D185849202H32CE4D061353FC6C06233H00013H00083H00013H00093H00093H00F831D1120A3H000A3H0015E363490B3H000B3H00DE39873E0C3H000C3H0095CC52110D3H000D3H0076B969510E3H000E3H00F8EB01270F3H000F3H000CCA1642103H00103H005A49CC73113H00143H00013H00153H00153H00543H00163H00173H00013H00183H001A3H00543H001B3H001C3H00013H001D3H001E3H00543H001F3H00203H00013H00213H00213H00553H00223H00233H00013H00243H00243H00553H00253H00253H00563H00263H00273H00013H00283H00283H00563H00293H002A3H00013H002B3H00313H00563H00323H00353H00533H00363H00373H00013H00383H00383H00533H00393H003C3H00013H003D3H003D3H00523H003E3H003F3H00013H00403H00423H00523H00433H004A3H00013H004B3H004D3H00533H004E3H004F3H00013H00503H00533H00533H00110002003FA00A020039A8B90C3H00780BE9B959158D38EF0D8E48B9073H00AC9FB5F44FAF88B9103H00D9A4D9C02336B3A32E0108A916F00754428H00B9063H004994FAE315DFB9233H00231EDDD59384C061F76873FC4E8079900D51D2CD9E2405CFB309A37667573704571BA8B9133H006C5F3C4986ECF79F37AC2B28F5E411AEE7DF6BB91D3H00ED184E2D640DC70C4E5F426986FF9B03EED9876B4AAD06458C39249CC1B9063H003CAF1D81EFF9B9063H0046E944C77F45B90D3H00F0C32A9B6D41FA04F249CF419CB9073H0057B2E2D5CBC299B9063H001C8F7569C390B90D3H0026C9AF1B10056807E852DA7B1AB90C3H001DC8D607BEA32HBBAEA005DCB9093H00F1FC220CEB351FCA41426H00F0BFB9063H00F4A70169C1C7B90C3H007E6137E3E86DBDA43A27C3F3427H00C0B9093H0072B5ED77182ADB5372E0D1AD142E0B02000D509046D0061D9D0B9D0616560096060B8B090B078C0C8D8C5BE969ECE92432720B407737770D407788434FC01FF5E83DB7624EC35FD612E362D33C4E44E47E954641281DD81FAAEAB92A060F4DCD4D2780004243542HCDDC4D2H06861D86062H3B34BB067C7D7C746C99DB989924A2E3A2223CE72H666707F8782HF823E5A425A4273E3FFF746C13912H53072HB4B5B423B1B0F1713C3H9A1A063FBECEFF64F0B130B127BDBC7CF76CB6742HF6072H6B6A6B23ACADEC6C3C89C849C8273H129206571696975BA8A969E26C95D72HD5072HEEEFEE23434203833C3H24A406E1E05D21644ACB888A5BEFEEAEAF273HA02006EDAC2C2D5BE6A42HE6079B1B2H9B232HDCDDDC23397879F944C24300025B3HC747061859D9D85B45440405273HDE5E067332B2B35B94D6959407D1512HD1232H7A7B7A239FDEDF5F4410D01390061D357AF020D61622A906CB0B38B4068C8D4CC4782H69A8A92332B3F3756C2HF7F67706C84A2H4824F534B435033HCE4E0623A2BFE3640444F57B06C103808123EAA82H6A23CF0D8F8E2980007DFF064D8C8E8D5BC604C2C6243B7AFBFA29BCFBB9A82059D953D906E262E26206A726272617B8F855C706E5651C9A06FEF8BBAA201393FE6C0674F48D0B062H3133315B3H5ADA06BF3FBEBF5B3HF0796CBDFD3E3D24363HB6222BF8F6941F2CEC2C2D5F2H090B89062H92D25B6C571752D706E8A92H280A3H9515066EEFCEAE64C34243410A3HE464066120A2E1644A8AB33506AFEFEDEF5B2H609D1F066D2HED68273HA626062HDB5A2H5B2H5C2H9C24B9F82HB971C2C32HC222873E0AD625D8D99998200544C545379EE7123B5DF3B271735B9415D4D26C91D16BEE06FABA3B3A245FDF1F1E5FD0102BAF061D90358637562H14106C8B4B74F406CC8E0C0D29A9AB6BE1273HB232067735B6B75B48C90A0823F5350A8A068E4E7CF106393H00013H00083H00013H00093H00093H007FD5ED070A3H000A3H0051D7F9040B3H000B3H0068A581060C3H000C3H000311F9610D3H000D3H009518AA3D0E3H000E3H001195F3400F3H000F3H00013H00103H00133H000E3H00143H00143H00013H00153H00173H00133H00183H00193H00013H001A3H001E3H00213H001F3H00203H00013H00213H00253H002B3H00263H00263H00353H00273H00283H00013H00293H002C3H00353H002D3H002E3H00013H002F3H002F3H00353H00303H00303H00433H00313H00323H00013H00333H00373H00433H00383H00393H00013H003A3H003A3H00513H003B3H003C3H00013H003D3H00413H00513H00423H00443H00133H00453H00453H00613H00463H00463H00013H00473H004A3H00623H004B3H004C3H00013H004D3H00513H00623H00523H00533H00013H00543H00573H005F3H00583H005A3H000D3H005B3H005D3H00603H005E3H00663H00013H00673H00683H00023H00693H00693H000D3H006A3H006B3H00013H006C3H006C3H000D3H006D3H006E3H00013H006F3H006F3H000D3H00703H00713H00013H00723H00723H00043H00733H00743H00013H00753H00763H00043H00773H00783H00013H00793H00793H00043H007A3H007B3H00013H007C3H007C3H00043H007D3H007E3H000D3H007F3H00813H00023H00823H00823H00013H00833H00863H000F3H00873H008B3H00013H00D600A454276E0032063H00544A3B4B00034H000300498B0A0200C9005F919026B90A020057A323A723060E4E0A8E062H6D69ED062H7071702H07472H075B62E22H62242HF1C982776424DE12772BFBFD856E76013DB939F527102C1798661F52570F3320FB6DCADCCBEF1739188971250C857F1D1FB3236412071E7E35F96A3HFD7D06C0802HC04A573H171CF22HA8126D4H001D001A31625F00034H0003005B8B0A0200ED00E6F86462B50A0200F181018201064E0E4DCE062H4744C7063C7C3D3C07BDFD2HBD5B1A9A2H1A246323DA117768E8521C77B997F7EE646682CAC453BF4964516354D486017B35EB18A135F21B9E94623HDB5B06800DA81B37B13HF11C3E2H5CD16E4H007900EE6FB321010B4H0003019A8F0A02004D00B90A3H006D1CCDA79665223FF448B9033H00270EAAC4017H00B9083H00883B61D840EA35454E43C72AE40A02001537B73CB70690D09B10062H656EE5062H4647460783C32H835B2C6C2D2C2411912961772HC278B477CF5D08CD0E08C849F6173D6BB226307E3BD5AB0D5B2870831DA46D16895B69E6896B17FA3AFD7A06E7A52HE771009392A24A955795945F3HB6360633B14133641C1E2H1C22418148C10632B233B206BF3D2H3F2378B8850706ADAF2HAD5B3H6EEE060B492H0B5BD4569594232HD927A6066AAA911506D70C0DB76DB0F17073753HC54506E6672H265B2HE363E0792H0C0A8C0671F18D0E0622AF0AB9376FEE2HEF1C686968690C3HDD5D06DE5F83DE64FB3A2HBB24C4852H84224926A0145C1A5AD95A25C73H4750E03H602275EE10706E563H961C139313932C3C7C2HFC24A1602HA15B3H1292069FDE2H9F5B18192H58242H0DF672068E3H4E1E3H6BEB06B4342H745BF9792H39108A4AB2355AF7B70988064H006000130C2C1706086H0002910A02001100C4017H00B9033H001063E1C4FF7H00423H00205FA00242C48H00B9073H00997CFFA02C86CF78CB2170E20A0200C150105BD0062HD1DA51062EEE24AE0677B72H77077CFC2H7C5BCD0DCCCD24BA3A02C8772H53692777E891CF7E0E494D244A33860F04733DEFC91EB24D5408378B430501869E14D2E8F4EB0B4BCB4CCB0600C02H8023418141C1063H5EDE443H67E7062H2C96AC643DFD3EBD06AA3H6A234303BD3C06D89899982479F9F8F92476B6B7B6241F3HDF2284BE3FDE5B752H747524C283C3C21BFB3B3A3B1B30702HB01BF1312HB11B2HCE8F8E5B571757D7069C1CDC5C5AADED51D2065A3H1A22337336B306C84831B70629282H691EE6672H66233HCF4F0674F4890B06A52HE4E6482H728D0D064H2B1E2HA02HE024613H21223E900AD00EC7872H47248C3H0C225DDAA9FA25CA0ACACB5F6323222324B83HF822D9C27BB9252H962H16247F3HBF24E4245DDB25D558FD4E3722A2DD5D064H00160039F5D60901064H000301338B0A02007D00FD2F7B4CBB0A0200BF1BDB189B060E8E0D8E06D595D65506A0E0A1A007DF9F2HDF5B42C22H4224B93981C87774344E007723BC5BE76FF6A8624C429D69026231886EE90D17272BB73F176AAC79CA73C1F0CF8F6DDC5F1D7D312B93D35D61DE3H5E1E253HE523702H7170202F6E2H6F1C123H923FC9892HC94A44C948572A4H004600E5FD5A1A00026H00CF8B0A0200F5007A0FD62AB10A02006573B371F306AC2CAE2C06E1A1E36106A2622HA2073F7F2H3F5BC8482HC8240D8DB47D779E1E25E877CB4A00867B648A82D266F98020994D9A8371522E57B5AE4048C04DE85B374H005400020001BB0A02005100C4047H00B90A3H00BE714BF849F26E30F7BDB9083H00ECFF7181AAC20046B9053H00C457A828C0B9063H000346262HC3C6C4FF7H00B9073H00A5880441B51D71B90C3H008AFD3FEC984C3B360C315D73B9063H00CE814AD242D9C400016H00B90A3H001063D2B6927A7F678DC9C4FD7H00B9073H007E31A4048B31ACB94H00B9073H001356D6F3CCB7D7C4917H00C4027H00B9073H00986B71BEE978FEC4E8036H00C4727H00B9053H000D70AD6F55C4017H00B9073H005C6F1F043C78B6B9063H0091349815D145B9073H00732HB653725779B9073H00F8CBD11E94188DB9063H006DD0411FEDD9B90A3H00CFD29AFE3E6CA2DD68E4B90E3H001D80B4733D011AF6142C4A8CCD21B9093H00D75A926FEAA89D7957B9083H00322566AEF33391F5C48H00B90D3H000A7DBF6C1BCCB8BE96B4DAE72BB90A3H0001A443D55EE4914F371BB9073H008F92DA375A9AD5B9083H0054E709B22EF0B77DB9063H002C3F1D6A7D9AB9093H00AE6166F875E19522E8B9083H00B9DC9D9392AFFE2AB5B9063H0011B424A25CD2B9063H00F3361DF5EFC7B9083H009578396FB617920EB9073H00ED50D7877B502AB90E3H0052455B9ECA1C71D34BE96131FAACB9083H00ECFF5DAABBCA024DAFB90C3H00C4578512C46C350DEEC6DCC2D65D7958B40C0200CF2HA5D02506408034C0060F8F7B8F06C282C0C2072H494C495BD414D2D424D313EBA277F6B64C8277AD99A7651FE8CF758F5797F722794CAAC8909274518A8D62533C0DE25577DBC0638F371E5E6F9E06B5BDB6B52310D0EF6F06DFD7989F2312D2ED6D06D9D151592024AC24A43763CF587A0746864BC6063D752H3D073870F87F5027AF2C6939FAF2F1AA3921E9297139CC04CF9C39EBA3EDBB392EE62F7E39858D81D539A0A8A6F0396F27663F39226A23723929A12C7939343C346439B3BBB4E339D65ED786390D4505DA5EC80049482337FF2HF7500A43020A23F1B971705F9CD4545C233BB2333B23FE37B6BE23555CDDD52330F92HB00A3HBF3F0632BBDEB264B97179780C444D2H4407C30A8B8323666FEEE6235D945D5C5F18112H182287C7C207065ADA50DA0681882H81452CA7262C23CB8BCB4B06CE040F0E23E5251B9A06400A8081293H4FCF06C2C85A0264894383892314D45E9406139A1B02382H362AB606EDE56C6D23282HE0E823979F1716293HAA2A061119969164BC7C746F545B9B07DB065EDE77DE06F5FD75F51750D071D006DF5FDD5F062H52D842799919BE1906A4AE2HE471E3A92HA322C60092916DBD35777D23B8F8B83806A76F2EB348FA3ADF7A06E12BA9A123CC0C32B306EB2HE3EB20AEA62EAE3785E1F1954720A8A03F6AEF62C77437E2E82B2D6929E6ACBD202HB4B5340633F326B306D65FDED6238D4DB40D06484295085A37F7C348060A40CA4A37B1F1AB31069C5CBC1C067B7D2H7B50FEF82HFE2255C85D550AB0F62HF050BFF92HFF223277DDE76E39BF2HB95044822H8424C3042HC30726A62H26232H9D989D2358D85C5823C707C3C7239ADA9E9A23C181C4C1236C2C6CEC064B0C4D05392H4E4DCE066522A5225080C72HC0224F66BEE32B0285094C39C909C9490614531D5A391354125D3936B1337839AD6DA82D06686F6326395797A82806AA6DA2E439D191D551067CBB7D32399BDB9C1B069E569D9E2375783021202H908910062H1F189F0612972H925019DCD8D977E4212H2422E3A8923735C680C5C624BDFDB93D06783EFFF82467E12HE7223A0697C56921A7E0E107CC098D0C7B2BABD85406AE69ADE0392H45B23A062027206E39EF2HE8A139A225A3EC39A9EEA17E5EF4340B8B06F3F42H73072H161116230DCACCCD07C848CFC82377B78F0806CACC2H8A71F1310B8E069C9B98D239FBFCFDB5392H3ECB4106551541D50630F0B9A23A3FFF00BF0632721FB2067933C0795AC444FA4406434D061720662665E606DD5DDD5D065890919823078E0F1626DA9A24A50601810D81062CA9842C5A4B8BBF34060E1215C03365258F1A06404E051420CF0FD54F068242820206098001182D94146AEB06539B9A9323B67648C9062HEDD66D062H2860796F2H9744E8062A232D2A2311582H11103C37797C241B913DA4255ED42HDE50F57F2H7522D006088F349F155A5F2412D82HD22219D0C4A647642F6E642H2363DE5C2H064C0C06232HFDDB7D0678FFB0AB082H27FA5806BA30707A23216A2421244C472H4C22EB23133A3EAEE4DA512505CF8085242HA05EDF062FA42HEF23226E2B222369A5222923F4FF34355F737838BB5C965DD341753H0D8D06C8030D085B373D3CA0480A414EC20DF1FABA3816DCD7979821BB3FF0FB232H7EA00106951C9D840070B0840F063F35767F2372F28A0D0639303938172H04D37B0643835EC306E6AEA1A6235D552H1D1058424194232H4746C7065A50191A24014B2H4122ECFEED9F5D8BC1818B232HCE30B106A5E5AF2C182H40B33F062H0FF87006828AC1C2234989B63606542HDCD423D3132CAC06B67EF6F7293H2DAD06E820D2A864D7975F423A6AEA90150651D19F2E067CB4B5BC231B92130A165E97160F0DF5FCBCA40110901190065F97969F23129B1A031A19175C4D20A4244CDB062H6362E306464FCF543H3DC34206F8F1706928272E6E7460BA3A44C5062H61AB1E06CC868C8D17ABEBBD2B062H6E7DEE06C54CCDD4753HE060062F262A2F5BE2EA6A704869E96FE906F4FD7C7423F3B3F17306565F9F82764D44CC4D033H48C806F7BEA1F7640A83020A232H7175F1069C155F5C243BBB39BB067EB6B7BE232HD5D45506F0F9B9A3763F36B7BF232HB24CCD06B9F0717923440441C406830A8B8323A66FEEE623DDD4555D231858E66706072H0E94769A13595A24810B8981232H2CD653064B43C3D9480ECEF97106A52D2E765EC0C98594202H4FFC300602C20082068903818923145E2H140A3H139306367C3E36646D64ED6D05E861E0E823579E1F17232HAA5CD506911B999123FC3C0383069BD25B5A295E9EA22106F575EC7506D0A0F77D20DF9F31A0062H5247D206192H1F9016E464E564062325A3A2293H862H06FD3B3D7D64B8FDBDB548A767A627063ABCFFFA232HA15FDE064C2H4A4821EBABEB6B062EA82HAE230545FB7A0660A52620236F2FB91006222426A80DA92952D606F4FEBEB4207339B3333756FFFCCE488DC7878D238848890806B7793223204A8A45CA06B1714CCE069C54991C5A2H7BD304063EF62HFE221555C36A06F070258F06BFF5FCFF23F2320D8D063933B0B923444E8E842003C943C337662F2E7F649D5D75E206D813D3D227078CCC4F273H9A1A0601CAC4C15B6C60666C238BC00013482H4EA93106652F2H254180CA40C0378FC874A5344208484223C90936B6065494AE2B06535AD742753H76F606ADA4A8AD5B6821A1A227D72H5EDF272AA3E9EA23D19BD8D123FCB53C3D293H9B1B065E97FE9E64352H3F3520909A1090375F0316EC3692529B183AD9191FA6062464DE5B062328E3E25F3HC646067DB6FCBD64383373F05C27EC62F0753AB0B12D76E1A1E061068C07060C23EB602H2B23EEA2E7EE234585BA3A06202C6B6023AF2F53D006626966EA0D692H62E016742H7F702173B38C0C0656921D1623CD4D0FB206C841C0C8237737AF08068ACA7BF506B1BB2HF1719CD62HDC22FB71D73C683E74343E235515AB2A0630F0DF4F067F372H3F4532F23BBD3AF979FB79062HC46FBB06038A0B124F66E6BB1906DD95D8DD2498902H982247C84C34175A824E96233H018106AC2447D325CB034E4B242H8E71F10665A56CE43A00C0EB7F06CF0F02B006C2CA838223892H010923545C9C9420D35B13933CB67649C906ADE52HED5028602H68221712DA9753AA222H2A5091192H11227CFACFDE731BD32HDB41DE1EDE5E06357C7D7523D0102FAF06DFD6565F20D21215AD0619101A192364249A1B0623A32H235B3H0686062HFDF8FD5B3H38AC4H27A7062H7A7F7A5B61A12H215B2H0C4CC1273H6BEB066E2E2B2E5B2H052H855B3H2021272F6F2HEF5B3H22A206E9292C295B2HF434BF27B372B9B35B3H56D6060D0C080D5B0809899927F7B6BCB75B4ACBCDCA5BF1B038315B1C9E161C5B3HFB7B067E7C7B7E5BD5D79D955BF0F272705B3H7FFF06F27077725BF93B3A395B3H048406834146435BA6A5A4A65B3H1D9D06D8DBDDD85B07044D475B9AD91C1A5B814240E762EC68EC0762CB4F8F8B248ECA2HCE22A52C5B582FC0844340248F0B2H0F22025BBD0425898D4B492414D02HD422936DE8030FF6F32HF6506DE8292D24E8AD2HA822D7519F1961EAAF6D6A2491145051247CB92HBC22DB77A1492B1E581B1E2435701FCA254H004B000200B58C0A0200B1CFC4CAF4FE5HFFDDCD6650BE0A0200772H10149006478744C706C242C14206F131F0F1074H845B6B2B2H6B24D6966EA47735758F40773898DB43064F7B7EE207EAD8BED05AB952BA54492C3C03EB6BF3A68A2504FE2B0D146B7D77D26A3360DB0B792E57122DFD6792D22H920781C10181524HD4074H7B554HA65B853HC555C83H881C4HDF0A7A76F6E92A4H00DD00", type, 175, unpack, 104, true, "n", 256, false, 108, 119, "bor", 180, "`for` initial value must be a number", 113, 103, 233, bit32.band, "`for` limit value must be a number", tonumber, setfenv, nil, bit32.bxor, rawget, "<i8", 133795, bit32.lshift, string.match, 138, bit32.bnot, "", select, "<I4", bit32, getfenv, "#", "<d", next, assert, tostring, error, "..", "sub", "`for` step value must be a number", string.rep, "char", "byte", "gsub", string, 110, setmetatable, string.unpack, rawset, "v", pcall, "__mode", 2147483648, 120, table.insert, bit32.rshift, ...);
